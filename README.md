@@ -33,12 +33,24 @@ resource "aws_instance" "example" {
 ![fluxo](https://drek4537l1klr.cloudfront.net/winkler/v-8/Figures/02_10.png)
 
 ### How To install awscli?
-Linux ubuntu 20
+
 font: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+
+Install aws cli on linux:
+
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 aws --version
 aws configure list
+```
+Configure cli with iam user:
+
+```
+aws configure
+AWS Access Key ID [None]: 
+AWS Secret Access Key [None]: 
+Default region name [None]: 
+Default output format [None]: 
 ```
