@@ -31,3 +31,14 @@ resource "aws_instance" "example" {
 ### How does it work?
 
 ![fluxo](https://drek4537l1klr.cloudfront.net/winkler/v-8/Figures/02_10.png)
+
+### How To install awscli?
+Linux ubuntu 20
+font: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+aws configure list
+```
