@@ -32,6 +32,10 @@ resource "aws_instance" "example" {
 
 ![fluxo](https://drek4537l1klr.cloudfront.net/winkler/v-8/Figures/02_10.png)
 
+### Remote State:
+
+![state](https://miro.medium.com/max/691/1*sYfCr4Jlo_6nDmgclWjxVg.png)
+
 ### How To install awscli?
 
 font: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
